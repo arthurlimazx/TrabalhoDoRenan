@@ -24,6 +24,15 @@ nav{
     flex-wrap: wrap;
     gap: 1rem;
     border-bottom: 1px solid #444;
+    border-radius: 100px;
+    position: fixed;
+    margin-top: 20px;
+    width: 90%;
+    z-index: 1000;
+    border-top: 1px solid #444;
+    opacity: 0.9;
+    margin-left: 65px;
+
 }
 
 nav ul{
@@ -95,6 +104,8 @@ nav ul li a{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: white;
+    padding-top: 60px;
 
 }
 
