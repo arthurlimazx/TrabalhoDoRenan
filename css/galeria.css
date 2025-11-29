@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+
+    box-sizing: border-box;
+    
+}
+
+body{
+    transition: all 0.6s ease-in-out;
+    
+}
+
+
+
+
+nav{
+    background-color: white;
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    border-bottom: 1px solid #444;
+    border-radius: 100px;
+    
+    margin-top: 20px;
+    width: 90%;
+    z-index: 1000;
+    border-top: 1px solid #444;
+    opacity: 0.9;
+    margin-left: 65px;
+
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    font-family:  Poppins, sans-serif;
+   
+    
+    
+    
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: all 0.6s ease-in-out;
+    font-family:   Poppins, sans-serif;
+    position: relative;
+   
+}
+
+
+  
+
+
+.logo{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    font-family:   Poppins, sans-serif;
+    padding-right: 300px;
+    align-items: flex-start;
+}
+
+
+.link:hover{
+    color: gray;
+}
+
+.link::before,
+.link::after{
+    content: '';
+   position: absolute;
+   bottom: -5px;
+    width: 0;
+    height: 4px;
+    background-color: black;
+    transition: width .3s ease;
+}
+
+.link::before::before{
+    left: 0;
+}
+.link::after{
+    right: 0;
+}
+
+.link:hover::before,
+.link:hover::after{
+    width: 50%;
+    transition: width .5s ease;
+}
+
+img{
+    max-width: 100%;
+    margin-bottom: 1px;
+    border-radius: 30px;
+    padding: 10px;
+    
+    transition: all 0.3s ease-in-out;
+}
+
+
+    
+    
+.titulo-galeria{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family:   'Poppins', sans-serif;
+    color: black;
+}
+    
+
+section{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    padding: 1vh 40px 250px ;
+    
+    width: 80%;
+    margin: 12vh auto  ;
+    margin-top: 100px;
+    background-color: #121212;
+    column-count: 2;
+    column-gap: 9px;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    background-size: contain   ;
+    
+}
+
+img:hover{
+
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+
+}
+
+
+        
+        
+                
