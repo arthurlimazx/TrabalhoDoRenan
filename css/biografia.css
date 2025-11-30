@@ -103,7 +103,7 @@ nav ul li a{
 
 
 .secao1{
-    margin: 120px auto;
+    margin-top: 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -133,7 +133,7 @@ nav ul li a{
     padding: 10vh 40px 0px ;
     height: 250vh;
     width: 90%;
-    margin: 12vh auto  ;
+    margin: 100px   ;
 }
 
 

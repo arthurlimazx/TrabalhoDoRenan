@@ -175,7 +175,7 @@ nav ul li a{
 .reproduzir{
     padding: 10px 20px;
     font-size: 1rem;
-    background-color: cyan;
+    background-color: lightblue;
     color: white;
     border: none;
     border-radius: 10px;
@@ -193,7 +193,7 @@ nav ul li a{
     justify-content: center;
     overflow: hidden;
     transition: max-height 0.5s ease-out;
-    background-color: cyan;
+    background-color: lightblue;
     border-radius: 20px;
     
     
