@@ -257,9 +257,13 @@ nav ul li a{
     color: black;
     font-family: Poppins, sans-serif;
     padding: 50px 0;
-    height: 70vh;
+    height: auto;
+    min-height: 500px;
+   
+   
 
 }
+
 
 .secao3 h1{
     font-size: 2.2rem;
@@ -328,3 +332,33 @@ nav ul li a{
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
+
+@media (max-width:1200px){
+    nav{
+        width: 95%;
+        margin-left: 2.5%;
+        flex-direction: column;
+    }
+    .logo{
+        padding: 0 0 0 0;
+
+        margin-bottom: 15px ;
+    
+    }
+    nav ul{
+        flex-direction: column;
+        gap: 0.3rem;
+
+    }
+
+   
+   .home-container section, .secao2 section, .secao3 section{
+    flex-direction: column;
+    gap: 30px;
+    min-height: auto;
+   }
+   .imagem img{
+    width: 90%;
+    margin: 18px auto;
+    margin-left:auto ;
+   }}

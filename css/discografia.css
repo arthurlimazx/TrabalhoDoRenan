@@ -428,3 +428,21 @@ i{
     padding: 20px;
 }
 
+@media (max-width: 1200px){
+    nav{
+        width: 95%;
+        margin-left: 2.5%;
+        flex-direction: column;
+    }
+    .logo{
+        padding: 0 0 0 0;
+
+        margin-bottom: 15px ;
+    
+    }
+    nav ul{
+        flex-direction: column;
+        gap: 0.3rem;
+
+    }
+}
